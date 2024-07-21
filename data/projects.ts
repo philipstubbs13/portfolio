@@ -88,6 +88,12 @@ export const writingProjects: ComponentProps<typeof ProjectCardLink>[] = [
   },
   {
     description: '',
+    href: '/paceart_optima_install_manual.pdf',
+    imageSrc: '/paceart_optima_install_manual.png',
+    title: 'Paceart Optima System Software Installation and Configuration Instructions',
+  },
+  {
+    description: '',
     href: '/inggt_12212.pdf',
     imageSrc: '/installing-goldengate-studio.png',
     title: 'Installing Oracle GoldenGate studio',
@@ -113,6 +119,12 @@ export const writingProjects: ComponentProps<typeof ProjectCardLink>[] = [
   },
   {
     description: '',
+    href: '/paceart_optima_user_manual.pdf',
+    imageSrc: '/paceart_optima_user_manual.png',
+    title: 'Paceart Optima System Software User Manual',
+  },
+  {
+    description: '',
     href: '/rcuug_12212.pdf',
     imageSrc: '/rcuug_12212.png',
     title: 'Creating Schemas with the Repository Creation Utility',
@@ -122,5 +134,65 @@ export const writingProjects: ComponentProps<typeof ProjectCardLink>[] = [
     href: '/opatc_12212.pdf',
     imageSrc: '/opatc_12212.png',
     title: 'Patching with OPatch',
+  },
+  {
+    description: '',
+    href: '/ouirf_12212.pdf',
+    imageSrc: '/ouirf_12212.png',
+    title: 'Installing Software with the Oracle Universal Installer',
+  },
+  {
+    description: '',
+    href: '/idmck_11123.pdf',
+    imageSrc: '/idmck_11123.png',
+    title: 'Verifying Your Oracle Identity and Access Management Environment',
+  },
+  {
+    description: '',
+    href: '/lcmcg_12212.pdf',
+    imageSrc: '/lcmcg_12212.png',
+    title: 'Configuring Oracle Fusion Middleware Using the Lifecycle Management Tools',
+  },
+  {
+    description: '',
+    href: '/mainspring_data_express_connectivity_guide.pdf',
+    imageSrc: '/mainspring_data_express_connectivity_guide.png',
+    title: 'Mainspring Data Express Connectivity Guide',
+  },
+  {
+    description: '',
+    href: '/lcmhp_12212.pdf',
+    imageSrc: '/lcmhp_12212.png',
+    title: 'FMW Composer Online Help',
+  },
+  {
+    description: '',
+    href: '/M988746A001A_view.pdf',
+    imageSrc: '/M988746A001A_view.png',
+    title: 'CareLink Express Online Help',
+  },
+  {
+    description: '',
+    href: '/M980686A001A_view.pdf',
+    imageSrc: '/M980686A001A_view.png',
+    title: 'Reveal LINQ Mobile Manager Online Help',
+  },
+  {
+    description: '',
+    href: '/rninf_12212.pdf',
+    imageSrc: '/rninf_12212.png',
+    title: 'Release Notes for Oracle Fusion Middleware Infrastructure',
+  },
+  {
+    description: '',
+    href: '/m978456a001a_view.pdf',
+    imageSrc: '/m978456a001a_view.png',
+    title: 'Software Errata Sheet for the MSW001 Reveal LINQ Mobile Manager Application',
+  },
+  {
+    description: '',
+    href: '/m978458a001a_view.pdf',
+    imageSrc: '/m978458a001a_view.png',
+    title: 'Software Errata Sheet for the MSW002 Reveal LINQ Mobile Manager Application',
   },
 ];
