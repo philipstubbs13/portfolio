@@ -4,6 +4,13 @@ import { ComponentProps } from 'react';
 export const projects: ComponentProps<typeof ProjectCardLink>[] = [
   {
     description:
+      'A web app that was created specifically to help the average basketball fan quickly and effectively visualize and organize complex market data for their favorite nba players and teams.',
+    href: 'https://swish-analytics-challenge.vercel.app/',
+    imageSrc: '/beat-the-odds.png',
+    title: 'Beat the Odds',
+  },
+  {
+    description:
       'Using a public dataset powered by the YouTube API, this project uncovers insights into trending videos for one of the largest search engines and one of the largest social media platforms.',
     href: 'https://philipstubbs13.github.io/Web-Design-Challenge/#/youtube-insights',
     imageSrc: '/youtube.png',
