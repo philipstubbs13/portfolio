@@ -14,14 +14,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  contact,
-  projects,
-  about,
 }: Readonly<{
   children: React.ReactNode;
-  contact: React.ReactNode;
-  projects: React.ReactNode;
-  about: React.ReactNode;
 }>) {
   const year = new Date().getFullYear();
 
@@ -30,9 +24,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className={'flex flex-col min-h-dvh'}>
           {children}
-          {about}
-          {projects}
-          {contact}
           <footer className="flex flex-col gap-4 py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-muted text-muted-foreground">
             <div className="flex items-center gap-4">
               {socialLinks.map((socialLink) => (

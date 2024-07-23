@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function AboutSlot() {
+export const About = () => {
   return (
     <section className={'w-full py-12 md:py-24 lg:py-32 bg-white text-black'}>
       <div className={'container grid items-center gap-8 px-4 md:px-6 lg:grid-cols-2 lg:gap-16'}>
@@ -32,4 +32,4 @@ export default function AboutSlot() {
       </div>
     </section>
   );
-}
+};

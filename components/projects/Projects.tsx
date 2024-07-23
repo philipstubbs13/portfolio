@@ -1,7 +1,7 @@
 import { ProjectCardLink } from '@/components/project-card-link/ProjectCardLink';
 import { projects, writingProjects } from '@/data/projects';
 
-export default function ProjectsSlot() {
+export const Projects = () => {
   return (
     <>
       <section id="projects" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
@@ -23,6 +23,7 @@ export default function ProjectsSlot() {
               <ProjectCardLink
                 description={project.description}
                 href={project.href}
+                id={project.id}
                 imageSrc={project.imageSrc}
                 key={project.href}
                 title={project.title}
@@ -59,4 +60,4 @@ export default function ProjectsSlot() {
       </section>
     </>
   );
-}
+};

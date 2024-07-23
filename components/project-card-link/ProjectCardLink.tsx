@@ -5,13 +5,17 @@ import Image from 'next/image';
 interface IProps {
   description: string;
   href: string;
+  id?: string;
   imageSrc: string;
   title: string;
 }
 
 export const ProjectCardLink = (props: IProps) => {
+  const href = props.id ? `/projects/${props.id}` : props.href;
+  const target = props.id ? undefined : '_blank';
+
   return (
-    <Link className={'group'} href={props.href} prefetch={false} target={'_blank'}>
+    <Link className={'group'} href={href} prefetch={true} target={target}>
       <Card className={'h-full w-full'}>
         <CardContent
           className={'flex aspect-[4/3] items-center justify-center overflow-hidden rounded-t-xl'}
