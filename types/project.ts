@@ -6,5 +6,6 @@ export interface IProject extends ComponentProps<typeof ProjectCardLink> {
   id: string;
   features: string[];
   overview: string;
+  storybookUrl?: string;
   technologies: string[];
 }

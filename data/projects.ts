@@ -5,6 +5,33 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'A custom video player component built using React and the Wistia JavaScript Player API.',
+    githubUrl: 'https://github.com/philipstubbs13/wistia-video-player',
+    storybookUrl: 'https://66aa07fde316cf9b3445ce6d-wzfdwyrtml.chromatic.com/',
+    features: [
+      'Embed Wistia videos using their video IDs.',
+      'Responsive design for various screen sizes.',
+      'Easy integration of Wistia into any React application.',
+      'Quick access to Wistia video data.',
+    ],
+    href: 'https://wistia-video-player.vercel.app/',
+    imageSrc: '/wistia-video-player.png',
+    overview:
+      'Custom video player component built using React and the Wistia Player API. A playground (built using Next.js) is available for trying out and testing your different Wistia videos.',
+    technologies: [
+      'Storybook',
+      'Chromatic',
+      'TypeScript',
+      'React.js',
+      'Next.js',
+      'Wistia JavaScript Player API',
+      'Tailwind',
+    ],
+    title: 'Wistia Video Player',
+    id: '12',
+  },
+  {
+    description:
       'A web app that was created specifically to help the average basketball fan quickly and effectively visualize and organize complex market data for their favorite nba players and teams.',
     githubUrl: 'https://github.com/philipstubbs13/swish-analytics-challenge',
     features: [
