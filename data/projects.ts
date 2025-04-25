@@ -5,6 +5,96 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'A responsive product filtering user interface built with HTML, Tailwind CSS, and JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/product-filtering',
+    features: [
+      'Search Functionality: Search for products using a search bar with real-time filtering.',
+      'Category Filters: Filter products by selecting categories such as Cameras, Smartphones, Games, and Televisions.',
+      'Dynamic Product Display: Products are displayed dynamically based on the applied filters.',
+      'Responsive Design: Fully responsive layout that works seamlessly on all devices.',
+      'Cart Button: Includes a cart button with a counter for potential future integration.',
+    ],
+    href: 'https://product-filtering-gules.vercel.app/',
+    imageSrc: '/product-filtering.png',
+    overview:
+      'A responsive product filtering user interface built with HTML, Tailwind CSS, and JavaScript. This project allows users to search for products, filter them by categories, and view the results dynamically.',
+    technologies: ['HTML', 'Tailwind CSS', 'JavaScript'],
+    title: 'Product Filtering UI',
+    id: '17',
+  },
+  {
+    description: 'A voice-controlled number guessing game built with JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/speak-number-guessing-game',
+    features: [
+      'Voice Recognition: Uses the Web Speech API to capture and process spoken input.',
+      'Random Number Generation: Generates a random number between 1 and 100 for the player to guess.',
+      'Real-Time Feedback: Provides feedback on whether the guess is too high, too low, or correct.',
+      "Interactive UI: Displays the player's spoken input and game feedback dynamically.",
+      'Replay Option: Allows players to restart the game after guessing the correct number.',
+    ],
+    href: 'https://speak-number-guessing-game-six.vercel.app/',
+    imageSrc: '/speak-now.png',
+    overview:
+      'A voice-controlled number guessing game built with JavaScript. This project uses the Web Speech API to allow players to guess a randomly generated number by speaking their guesses.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Web Speech API'],
+    title: 'Speak Number Guessing Game',
+    id: '16',
+  },
+  {
+    description:
+      'A simple and visually appealing countdown timer that counts down to the New Year.',
+    githubUrl: 'https://github.com/philipstubbs13/new-year-countdown',
+    features: [
+      'Dynamic Countdown: Displays the remaining days, hours, minutes, and seconds until the New Year.',
+      'Auto-Update for Next Year: Automatically adjusts for the upcoming year without manual changes.',
+      'Loading Animation: Includes a loading spinner before displaying the countdown.',
+      'Responsive Design: Works seamlessly across different devices and screen sizes.',
+    ],
+    href: 'https://new-year-countdown-rose-pi.vercel.app/',
+    imageSrc: '/new-year-countdown.png',
+    overview:
+      'A simple and visually appealing countdown timer that counts down to the New Year. This project dynamically updates the time remaining until midnight on January 1st of the upcoming year.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    title: 'New Year Countdown',
+    id: '15',
+  },
+  {
+    description: 'A classic Breakout game built with HTML5 Canvas and JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/breakout-game',
+    features: [
+      'Interactive Gameplay: Control the paddle using keyboard arrow keys to bounce the ball and break bricks.',
+      'Brick Collision Detection: Bricks disappear upon collision with the ball, and the score increases.',
+      'Paddle and Wall Collision: The ball bounces off the paddle and walls, adding to the challenge.',
+      'Lose Condition: If the ball hits the bottom wall, the game resets with all bricks reappearing.',
+      'Score Tracking: Displays the current score dynamically on the canvas.',
+      'Responsive Design: Works seamlessly on different screen sizes.',
+    ],
+    href: 'https://breakout-game-dusky.vercel.app/',
+    imageSrc: '/breakout-game.png',
+    overview:
+      'A classic Breakout game built with HTML5 Canvas and JavaScript. This project challenges players to break all the bricks using a ball and paddle while keeping track of their score.',
+    technologies: ['HTML5 Canvas', 'CSS', 'JavaScript'],
+    title: 'Breakout Game',
+    id: '14',
+  },
+  {
+    description: 'A simple breathing exercise app built with HTML, CSS, and JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/relaxer-app',
+    features: [
+      'Breathing Animation: Visual and textual cues guide users to breathe in, hold, and breathe out.',
+      'Timed Cycles: Each breathing cycle is timed to ensure a consistent and relaxing experience.',
+      'The app dynamically updates text and animations to match the breathing phases.',
+    ],
+    href: 'https://relaxer-app-three.vercel.app/',
+    imageSrc: '/relaxer-app.png',
+    overview:
+      'A simple breathing exercise app built with HTML, CSS, and JavaScript. This project guides users through a calming breathing cycle to help reduce stress and promote relaxation.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    title: 'Relaxer App',
+    id: '13',
+  },
+  {
+    description:
       'A custom video player component built using React and the Wistia JavaScript Player API.',
     githubUrl: 'https://github.com/philipstubbs13/wistia-video-player',
     storybookUrl: 'https://66aa07fde316cf9b3445ce6d-wzfdwyrtml.chromatic.com/',
