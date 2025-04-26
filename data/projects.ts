@@ -5,6 +5,68 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'A modern and visually stunning portfolio website designed for showcasing creative projects.',
+    githubUrl: 'https://github.com/philipstubbs13/lumina-creative',
+    features: [
+      'Responsive Design: Fully responsive layout that adapts seamlessly to all screen sizes.',
+      'Interactive Gallery: A grid-based gallery with lightbox functionality for viewing images in full size.',
+      'Customizable Content: Easily update images, titles, and text to suit your portfolio needs.',
+      'Social Media Integration: Includes links to popular social media platforms for easy sharing.',
+      'Contact Section: Displays contact information for potential clients or collaborators.',
+    ],
+    href: 'https://lumina-creative-pearl.vercel.app/',
+    imageSrc: '/lumina-creative.png',
+    overview:
+      'A modern and visually stunning portfolio website designed for showcasing creative projects. This project features a responsive gallery with lightbox functionality, making it perfect for photographers, designers, and other creatives to display their work.',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Lightbox2 for image viewing',
+      'Font Awesome for icons',
+    ],
+    title: 'Lumina Creative',
+    id: '20',
+  },
+  {
+    description:
+      'An assistive web application that converts text to speech using the Web Speech API.',
+    githubUrl: 'https://github.com/philipstubbs13/speech-text-reader',
+    features: [
+      'Predefined Phrases: Includes a set of predefined phrases with corresponding images for quick selection.',
+      'Custom Text Input: Users can input their own text to be read aloud.',
+      'Voice Selection: Choose from a variety of voices and languages supported by the browser.',
+      'Interactive UI: Clickable boxes with images and text trigger speech synthesis.',
+      'Text Box Toggle: Show or hide the custom text input box for a cleaner interface.',
+    ],
+    href: 'https://speech-text-reader-peach.vercel.app/',
+    imageSrc: '/speech-text-reader.png',
+    overview:
+      'An assistive web application that converts text to speech using the Web Speech API. This project allows users to select predefined phrases or input custom text, making it a helpful tool for communication and accessibility.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Web Speech API'],
+    title: 'Speech Text Reader',
+    id: '19',
+  },
+  {
+    description:
+      'A simple and interactive exchange rate calculator built with HTML, CSS, and JavaScript. ',
+    githubUrl: 'https://github.com/philipstubbs13/exchange-rate-calculator',
+    features: [
+      'Currency Selection: Choose from a wide range of currencies for conversion.',
+      'Real-Time Conversion: Automatically calculates the converted amount based on the selected currencies and input values.',
+      'Swap Functionality: Easily swap the "From" and "To" currencies with a single click.',
+      'Dynamic Exchange Rate Display: Shows the current exchange rate between the selected currencies.',
+    ],
+    href: 'https://exchange-rate-calculator-dun.vercel.app/',
+    imageSrc: '/exchange-rate-calculator.png',
+    overview:
+      'A simple and interactive exchange rate calculator built with HTML, CSS, and JavaScript. This project allows users to convert between different currencies in real-time using live exchange rates.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Exchange Rate API (for live data)'],
+    title: 'Exchange Rate Calculator',
+    id: '18',
+  },
+  {
+    description:
       'A responsive product filtering user interface built with HTML, Tailwind CSS, and JavaScript.',
     githubUrl: 'https://github.com/philipstubbs13/product-filtering',
     features: [

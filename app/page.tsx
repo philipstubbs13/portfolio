@@ -22,13 +22,23 @@ export default function Home() {
                   'lg:leading-tighter text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl xl:text-[4.5rem] 2xl:text-[5rem] text-primary-foreground'
                 }
               >
-                Hungry & Driven Engineer Solving Complex Problems
+                Hungry & Driven Web Developer Solving Complex Problems
               </h1>
               <p className={'mx-auto max-w-[700px] text-primary-foreground md:text-xl mt-5'}>
-                I&apos;m Phil, a driven backend, frontend, and full stack engineer. I thrive on
-                tackling complex problems through innovative coding solutions. My passion for both
-                independent and collaborative work ensures that your project will be handled with
-                expertise and dedication. Let&apos;s turn your challenges into successes!
+                Hi, I&apos;m Phil Stubbs — a web developer who builds with purpose.
+              </p>
+              <p className={'mx-auto max-w-[700px] text-primary-foreground md:text-xl mt-5'}>
+                I specialize in crafting accessible, user-centered experiences with modern tools
+                like React, TypeScript, and Next.js. Whether I&apos;m collaborating in Figma,
+                testing with Vitest, or documenting in Storybook, I focus on creating clean,
+                scalable UI with empathy baked in. My approach is shaped not just by my experience,
+                but by personal values—like making the web work better for everyone, including
+                people with disabilities.
+              </p>
+              <p className={'mx-auto max-w-[700px] text-primary-foreground md:text-xl mt-5'}>
+                I also share what I learn through dev-focused content on YouTube and TikTok, and
+                love connecting with others who care about thoughtful design, inclusive development,
+                and continuous growth. Let&apos;s build something that matters.
               </p>
             </div>
             <div className="hidden md:block">
