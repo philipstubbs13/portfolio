@@ -5,6 +5,88 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'Runner Pulse is a comprehensive web application designed for passionate runners to track, analyze, and improve their performance.',
+    githubUrl: 'https://github.com/philipstubbs13/runner-pulse',
+    features: [
+      'Personal race result tracking and anaylsis',
+      'Interactive performance charts and statistics',
+      'Upcoming race discovery and management',
+      'Photo gallery for capturing running memories',
+      'Customizable user profiles and settings',
+    ],
+    href: 'https://runner-pulse.vercel.app/dashboard/results',
+    imageSrc: '/runner-pulse.png',
+    overview:
+      'Runner Pulse is a comprehensive web application designed for passionate runners to track, analyze, and improve their performance. Built with modern web technologies, this app offers a sleek, responsive interface and powerful analytics tools.',
+    technologies: [
+      'RunSignup API',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Tailwind',
+      'Storybook',
+      'Chromatic',
+      'Recharts',
+      'MongoDB',
+      'Prisma',
+      'Cloudinary',
+      'shadcn/ui',
+      'NextAuth',
+      'Vitest',
+      'TanStack Table',
+    ],
+    title: 'Runner Pulse',
+    id: '23',
+  },
+  {
+    description:
+      'A professional and responsive website designed for promoting and selling online video courses.',
+    githubUrl: 'https://github.com/philipstubbs13/tutor-website',
+    features: [
+      'Hero Section: Captivating introduction with a call-to-action for purchasing the course.',
+      'Course Highlights: Detailed sections outlining what users will learn, key takeaways, and course chapters.',
+      'Responsive Design: Fully responsive layout that works seamlessly across all devices.',
+      'Interactive Elements: Includes a mobile-friendly navigation menu, social media links, and a newsletter subscription form.',
+      "Author and Stats Section: Highlights the course author’s expertise and key statistics about the course's success.",
+      'Social Media Integration: Links to popular social platforms for easy sharing and engagement.',
+    ],
+    href: 'https://tutor-website-roan.vercel.app/',
+    imageSrc: '/tutor-website.png',
+    overview:
+      'A professional and responsive website designed for promoting and selling online video courses. This project features a modern design, interactive sections, and a user-friendly layout to engage visitors and showcase course content effectively.',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Responsive Design',
+      'Font Awesome for icons',
+      'Google Fonts',
+    ],
+    title: 'Tutor Website',
+    id: '22',
+  },
+  {
+    description: 'A modern and feature-rich e-commerce platform built with Next.js.',
+    githubUrl: 'https://github.com/philipstubbs13/prostored',
+    features: [
+      'Product Carousel: Showcases featured products in an interactive carousel.',
+      'Latest Products: Displays the newest arrivals with a customizable limit.',
+      'View All Products: Includes a button to navigate to the full product catalog.',
+      'Deal Countdown : Highlights limited-time deals with a countdown timer.',
+      'Icon Boxes: Displays key benefits or features (e.g., free shipping, easy returns).',
+      'Dynamic Data Fetching: Uses server-side actions to fetch the latest and featured products.',
+      'Responsive Design: Fully optimized for desktop, tablet, and mobile devices.',
+    ],
+    href: 'https://prostored.vercel.app/',
+    imageSrc: '/prostore.png',
+    overview:
+      'A modern and feature-rich e-commerce platform built with Next.js. ProStore is designed to deliver a seamless shopping experience with dynamic product displays, interactive features, and a responsive design.',
+    technologies: ['Next.js', 'React', 'Tailwind CSS', 'Custom API Integration'],
+    title: 'ProStore - Next.js Ecommerce Platform',
+    id: '21',
+  },
+  {
+    description:
       'A modern and visually stunning portfolio website designed for showcasing creative projects.',
     githubUrl: 'https://github.com/philipstubbs13/lumina-creative',
     features: [
