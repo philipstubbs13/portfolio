@@ -4,6 +4,24 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description: 'A fun and interactive word puzzle game built with HTML, CSS, and JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/wordle-vanilla-js',
+    features: [
+      'Dynamic Scoreboard: Displays player guesses in real-time with visual feedback.',
+      'Interactive Gameplay: Players can input guesses and receive hints to improve their next attempt.',
+      'Responsive Design: Optimized for both desktop and mobile devices.',
+      'Customizable Word List: Easily update the game with new words for endless replayability.',
+      'Minimalist UI: Clean and intuitive interface for a seamless user experience.',
+    ],
+    href: 'https://wordle-clone-eight-coral.vercel.app/',
+    imageSrc: '/word-masters.png',
+    overview:
+      'A fun and interactive word puzzle game built with HTML, CSS, and JavaScript. Word Masters challenges players to guess the correct word by providing feedback on their guesses, making it an engaging and educational experience.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    title: 'Word Masters',
+    id: '24',
+  },
+  {
     description:
       'Runner Pulse is a comprehensive web application designed for passionate runners to track, analyze, and improve their performance.',
     githubUrl: 'https://github.com/philipstubbs13/runner-pulse',
