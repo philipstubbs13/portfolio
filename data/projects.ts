@@ -4,6 +4,46 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description:
+      'A modern and responsive SaaS landing page designed to showcase the features, benefits, and pricing of a startup growth tool. ',
+    githubUrl: 'https://github.com/philipstubbs13/saas-landing-page',
+    features: [
+      'Hero Section: Captivating headline and call-to-action buttons to grab user attention.',
+      'Video Section: Demonstrates the products functionality with a video preview.',
+      'Testimonials: Highlights success stories from satisfied customers.',
+      'Pricing Plans: Displays clear and transparent pricing options with detailed features.',
+      'FAQ Section: Answers common questions to address customer concerns.',
+      'Newsletter Subscription: Allows users to subscribe for updates and tips.',
+      'Responsive Design: Fully optimized for desktop, tablet, and mobile devices.',
+      'Social Media Integration: Includes links to social platforms for easy sharing.',
+    ],
+    href: 'https://saas-landing-page-gamma-nine.vercel.app/',
+    imageSrc: '/saas-landing-page.png',
+    overview:
+      'A modern and responsive SaaS landing page designed to showcase the features, benefits, and pricing of a startup growth tool. This project is perfect for promoting SaaS products and engaging potential customers with a professional and visually appealing design.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    title: 'Growth App - SaaS Landing Page',
+    id: '26',
+  },
+  {
+    description:
+      'A modern expense tracking application built with Next.js and Clerk for user authentication.',
+    githubUrl: 'https://github.com/philipstubbs13/expense-tracker-nextjs',
+    features: [
+      'User Authentication: Secure login and user management powered by Clerk.',
+      'Balance Overview: Displays the users current balance dynamically.',
+      'Add Transactions: Easily add new income or expense transactions.',
+      'Transaction History: View a list of all past transactions.',
+    ],
+    href: 'https://expense-tracker-nextjs-taupe.vercel.app/',
+    imageSrc: '/expense-tracker-nextjs.png',
+    overview:
+      'A modern expense tracking application built with Next.js and Clerk for user authentication. This app allows users to manage their finances by tracking income and expenses, providing a clear overview of their financial health.',
+    technologies: ['Next.js', 'Clerk', 'React', 'Tailwind CSS'],
+    title: 'Expense Tracker Next.js',
+    id: '25',
+  },
+  {
     description: 'A fun and interactive word puzzle game built with HTML, CSS, and JavaScript.',
     githubUrl: 'https://github.com/philipstubbs13/wordle-vanilla-js',
     features: [
