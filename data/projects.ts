@@ -4,6 +4,29 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description: 'A project management application built with Next.js.',
+    githubUrl: 'https://github.com/philipstubbs13/nextjs-issue-tracker',
+    features: [
+      'User authentication (sign up, sign in, sign out)',
+      'Issue management (create, update, delete)',
+      'Modern UI with Tailwind CSS',
+      'Responsive design',
+    ],
+    href: 'https://nextjs-issue-tracker-delta.vercel.app/',
+    imageSrc: '/nextjs-issue-tracker.png',
+    overview: 'A project management application built with Next.js',
+    technologies: [
+      'Next.js with App Router',
+      'TypeScript',
+      'Tailwind CSS',
+      'Prisma',
+      'PostgreSQL',
+      'NextAuth.js',
+    ],
+    title: 'Next.js Issue Tracker',
+    id: '27',
+  },
+  {
     description:
       'A modern and responsive SaaS landing page designed to showcase the features, benefits, and pricing of a startup growth tool. ',
     githubUrl: 'https://github.com/philipstubbs13/saas-landing-page',
