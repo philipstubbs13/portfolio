@@ -4,6 +4,29 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description:
+      'A sleek and modern landing page for the Leno app, designed to showcase its features, benefits, and testimonials.',
+    githubUrl: 'https://github.com/philipstubbs13/leno-website',
+    features: [
+      'Hero Section: Captivating introduction with a call-to-action for downloading the app.',
+      'Testimonials: Highlights user success stories with visually appealing cards.',
+      "Key Features: Showcases the app's powerful features, including real-time data, calendar integration, and a visual editor.",
+      "Preview Section: Offers a sneak peek of the app's interface with images and videos.",
+      "Details Section: Provides in-depth information about the app's functionality and benefits",
+      'Screenshots Gallery: Displays multiple screenshots of the app for better visualization.',
+      'Download Section: Includes buttons for downloading the app on Apple and Android devices.',
+      'Responsive Design: Fully optimized for desktop, tablet, and mobile devices.',
+      'Social Media Integration: Links to popular social platforms for easy sharing.',
+    ],
+    href: 'https://leno-website-jet.vercel.app/',
+    imageSrc: '/leno-website.png',
+    overview:
+      'A sleek and modern landing page for the Leno app, designed to showcase its features, benefits, and testimonials. This responsive website is perfect for promoting productivity and health-focused applications, providing users with a visually appealing and engaging experience.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    title: 'Leno Website - Productivity & Health App Landing Page',
+    id: '28',
+  },
+  {
     description: 'A project management application built with Next.js.',
     githubUrl: 'https://github.com/philipstubbs13/nextjs-issue-tracker',
     features: [
