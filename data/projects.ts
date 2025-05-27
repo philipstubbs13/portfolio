@@ -5,6 +5,26 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'This project is a React app designed to help users manage their budgets and expenses effectively.',
+    githubUrl: 'https://github.com/philipstubbs13/react-budget-app',
+    features: [
+      'Add Budgets: Create budgets with a name and spending limit.',
+      'Track Expenses: Add expenses to specific budgets or an "Uncategorized" category.',
+      'View Expenses: View detailed lists of expenses for each budget.',
+      "Uncategorized Expenses: Manage expenses that don't belong to any specific budget.",
+      'Total Budget Overview: See a summary of all budgets and expenses in one place.',
+      'Responsive Design: The app is fully responsive and adapts to different screen sizes.',
+    ],
+    href: 'https://react-budget-app-omega.vercel.app/',
+    imageSrc: '/budget-app.png',
+    overview:
+      'This project is a React app designed to help users manage their budgets and expenses effectively. It provides an intuitive interface for creating budgets, tracking expenses, and visualizing spending across different categories.',
+    technologies: ['React', 'React Bootstrap', 'Custom Context API', 'React Hooks'],
+    title: 'Budget Management App',
+    id: '30',
+  },
+  {
+    description:
       'This project is a React + TypeScript implementation of a shopping cart application.',
     githubUrl: 'https://github.com/philipstubbs13/react-ts-shopping-cart',
     features: [
