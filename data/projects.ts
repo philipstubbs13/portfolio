@@ -5,6 +5,26 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'This project is a React + TypeScript implementation of a shopping cart application.',
+    githubUrl: 'https://github.com/philipstubbs13/react-ts-shopping-cart',
+    features: [
+      'Add, Remove, and Update Items',
+      'Cart State Management',
+      'Local Storage Persistence',
+      'Dynamic Cart Quantity',
+      'Reusable Components',
+      'TypeScript for Type Safety',
+    ],
+    href: 'https://react-shopping-cart-topaz-nu.vercel.app',
+    imageSrc: '/react-shopping-cart.png',
+    overview:
+      "This project is a React + TypeScript implementation of a shopping cart application. It demonstrates how to manage a shopping cart's state using React Context and custom hooks, while persisting data in local storage.",
+    technologies: ['React', 'TypeScript', 'React Context API', 'Custom Hooks', 'Local Storage'],
+    title: 'React Shopping Cart',
+    id: '29',
+  },
+  {
+    description:
       'A sleek and modern landing page for the Leno app, designed to showcase its features, benefits, and testimonials.',
     githubUrl: 'https://github.com/philipstubbs13/leno-website',
     features: [
