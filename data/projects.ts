@@ -5,6 +5,33 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'This project is a MERN stack application that allows user to log and keep track of different workouts.',
+    githubUrl: 'https://github.com/philipstubbs13/mern-workouts',
+    features: [
+      'User Authentication: Secure user registration and login.',
+      'React Router Integration: Conditional navigation based on authentication status.',
+      'Global State Management: Authentication state is managed using a custom React hook (useAuthContext).',
+    ],
+    href: 'https://stridely.vercel.app/',
+    imageSrc: '/stridely.png',
+    overview:
+      'This project is a MERN stack application that allows user to log and keep track of different workouts. Users can sign up, log in , and access a protected dashboard page where they can view their own, personalized workout plan.',
+    technologies: [
+      'React',
+      'React Router',
+      'CSS',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Mongoose',
+      'Vercel',
+      'JWT (JSON Web Tokens)',
+    ],
+    title: 'Stridely App',
+    id: '32',
+  },
+  {
+    description:
       'The Goalsetter App is a full stack application built using the MERN stack (MongoDB, Express.js, React, Node.js).',
     githubUrl: 'https://github.com/philipstubbs13/mern-goals',
     features: [
