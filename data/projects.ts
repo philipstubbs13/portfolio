@@ -5,6 +5,34 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'The Goalsetter App is a full stack application built using the MERN stack (MongoDB, Express.js, React, Node.js).',
+    githubUrl: 'https://github.com/philipstubbs13/mern-goals',
+    features: [
+      'User Authentication: Secure user registration, login, and logout functionality.',
+      'Goal Management: Users can create, update, and delete their goals.',
+      'State Management: Redux Toolkit is used for managing global state.',
+    ],
+    href: 'https://mern-goals-five.vercel.app/',
+    imageSrc: '/goalsetter.png',
+    overview:
+      'The Goalsetter App is a full stack application built using the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to create, manage, and track their goals. ',
+    technologies: [
+      'React',
+      'Redux Toolkit',
+      'React Router',
+      'Axios',
+      'CSS',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Mongoose',
+      'Vercel',
+    ],
+    title: 'Goalsetter App',
+    id: '31',
+  },
+  {
+    description:
       'This project is a React app designed to help users manage their budgets and expenses effectively.',
     githubUrl: 'https://github.com/philipstubbs13/react-budget-app',
     features: [
