@@ -4,6 +4,31 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description:
+      'IdeaDrop is a platform for sharing, exploring, and building on startup ideas and side hustles. ',
+    githubUrl: 'https://github.com/philipstubbs13/idea-drop-ui',
+    features: [
+      'Latest Ideas Preview — Fetches and displays the 3 most recent ideas using @tanstack/react-query.',
+      'Clean UI — Responsive layout with Tailwind CSS for styling.',
+      'Routing — Client-side navigation with @tanstack/react-router.',
+      'API Integration — Fetches ideas from a backend API (fetchIdeas).',
+      'Reusable Components — IdeaCard component for displaying idea details.',
+    ],
+    href: 'https://idea-drop-ui-flame.vercel.app/',
+    imageSrc: '/ideadrop.png',
+    overview:
+      'IdeaDrop is a platform for sharing, exploring, and building on startup ideas and side hustles. The homepage displays the latest ideas fetched from the API, and users can view more details by visiting the full ideas list.',
+    technologies: [
+      'React',
+      '@tanstack/react-router',
+      '@tanstack/react-query',
+      'Tailwind CSS',
+      'Lucide Icons',
+    ],
+    title: 'Idea Drop',
+    id: '34',
+  },
+  {
     description: 'This project is a static clone of the Hulu homepage, built using HTML and CSS.',
     githubUrl: 'https://github.com/philipstubbs13/hulu-webpage-clone',
     features: [
