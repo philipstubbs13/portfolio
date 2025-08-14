@@ -4,6 +4,22 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description: 'This project is a static clone of the Hulu homepage, built using HTML and CSS.',
+    githubUrl: 'https://github.com/philipstubbs13/hulu-webpage-clone',
+    features: [
+      'Responsive Design: The layout adjusts to different screen sizes for a better user experience.',
+      'Categories Section: Displays different categories like TV Shows, Movies, Hulu Originals, and Premiums.',
+      'Modal: A login modal for user interaction.',
+    ],
+    href: ' https://hulu-webpage-clone-pearl.vercel.app/',
+    imageSrc: '/hulu-clone.png',
+    overview:
+      'This project is a static clone of the Hulu homepage, built using HTML and CSS. It replicates the design and layout of the Hulu website, showcasing various sections such as the header, promotional content, categories, live TV, and footer.',
+    technologies: ['HTML', 'CSS', 'Vercel'],
+    title: 'Hulu',
+    id: '33',
+  },
+  {
     description:
       'This project is a MERN stack application that allows user to log and keep track of different workouts.',
     githubUrl: 'https://github.com/philipstubbs13/mern-workouts',
