@@ -4,6 +4,23 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description: 'A responsive product modal card built with HTML and Tailwind CSS.',
+    githubUrl: 'https://github.com/philipstubbs13/product-modal',
+    features: [
+      'Fully responsive layout (mobile & desktop)',
+      'Clean and modern design using Tailwind CSS',
+      'Hover effects & smooth transitions',
+      'Product stock indicator with animation',
+    ],
+    href: 'https://product-modal-umber.vercel.app/',
+    imageSrc: '/product-modal.png',
+    overview:
+      'This component displays a product image, price details, availability status, and interactive buttons such as "Add to Cart" and "Add to Wishlist."',
+    technologies: ['HTML', 'Tailwind CSS'],
+    title: 'Product Modal',
+    id: '36',
+  },
+  {
     description:
       'This project is a responsive email subscription card built with HTML and Tailwind CSS.',
     githubUrl: 'https://github.com/philipstubbs13/email-subscribe-card',
