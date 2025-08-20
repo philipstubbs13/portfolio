@@ -4,6 +4,26 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description:
+      'This project is a Starbucks-inspired landing page built with HTML, CSS, and JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/starbucks-homepage',
+    features: [
+      'Responsive Navbar with desktop and mobile menus',
+      'Hamburger menu for small screens',
+      'Promotional content sections (holiday offers, seasonal drinks, and campaigns)',
+      'Reusable button styles (dark, light-outline, etc.)',
+      'Footer with social links (Spotify, Facebook, Pinterest, Instagram, YouTube, Twitter)',
+      'Responsive design for different screen sizes',
+    ],
+    href: 'https://starbucks-homepage-eight.vercel.app/',
+    imageSrc: '/starbucks.png',
+    overview:
+      'This site recreates the modern Starbucks website experience with a responsive navigation bar, interactive mobile menu, and promotional sections highlighting seasonal drinks and offers.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    title: 'Starbucks Coffee Company',
+    id: '37',
+  },
+  {
     description: 'A responsive product modal card built with HTML and Tailwind CSS.',
     githubUrl: 'https://github.com/philipstubbs13/product-modal',
     features: [
