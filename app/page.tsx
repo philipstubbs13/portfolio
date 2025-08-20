@@ -22,10 +22,14 @@ export default function Home() {
                   'lg:leading-tighter text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl xl:text-[4.5rem] 2xl:text-[5rem] text-primary-foreground'
                 }
               >
-                Hungry & Driven Web Developer Solving Complex Problems
+                Web Developer Solving Complex Problems
               </h1>
               <p className={'mx-auto max-w-[700px] text-primary-foreground md:text-xl mt-5'}>
                 Hi, I&apos;m Phil Stubbs — a web developer who builds with purpose.
+              </p>
+              <p className={'mx-auto max-w-[700px] text-primary-foreground md:text-xl mt-5'}>
+                I have a strong interest and curiosity in finding ways to incorporate AI into the
+                web development and coding space.
               </p>
               <p className={'mx-auto max-w-[700px] text-primary-foreground md:text-xl mt-5'}>
                 I specialize in crafting accessible, user-centered experiences with modern tools
