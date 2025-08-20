@@ -5,7 +5,25 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
-      'IdeaDrop is a platform for sharing, exploring, and building on startup ideas and side hustles. ',
+      'This project is a responsive email subscription card built with HTML and Tailwind CSS.',
+    githubUrl: 'https://github.com/philipstubbs13/email-subscribe-card',
+    features: [
+      'Responsive Design: The card layout adjusts for both desktop and mobile devices.',
+      'Interactive Elements: Input field for entering an email address. A "Subscribe" button with hover effects.',
+      'Modern Styling: Utilizes Tailwind CSS for a clean and professional look.',
+      'Hover Effects: Subtle animations on the image and button for enhanced user experience.',
+    ],
+    href: 'https://email-subscribe-card-blush.vercel.app/',
+    imageSrc: '/email-subscription-card.png',
+    overview:
+      'This project is a responsive email subscription card built with HTML and Tailwind CSS. It features a visually appealing design with a subscription form for users to sign up for a newsletter.',
+    technologies: ['HTML', 'Tailwind CSS'],
+    title: 'Email Subscription Card',
+    id: '35',
+  },
+  {
+    description:
+      'IdeaDrop is a platform for sharing, exploring, and building on startup ideas and side hustles.',
     githubUrl: 'https://github.com/philipstubbs13/idea-drop-ui',
     features: [
       'Latest Ideas Preview — Fetches and displays the 3 most recent ideas using @tanstack/react-query.',
