@@ -5,6 +5,28 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'A clean, responsive landing page for a fictional Clipboard app, built with HTML and CSS (with utility classes).',
+    githubUrl: 'https://github.com/philipstubbs13/clipboard-website',
+    features: [
+      'Hero Section with logo, headline, and download buttons.',
+      'Snippets Section explaining how Clipboard keeps track of copied items.',
+      'Features Section showcasing quick search, iCloud sync, and full history.',
+      'Access Anywhere Section highlighting cross-device availability.',
+      'Supercharge Section with productivity tools (Blacklist, Plain Text Snippets, Sneak Preview).',
+      'References Section with well-known brand logos.',
+      'Bottom CTA Section to encourage app downloads.',
+      'Responsive Footer with navigation links and social media icons.',
+    ],
+    href: 'https://gleeful-crisp-c89bc2.netlify.app/',
+    imageSrc: '/clipboard.png',
+    overview:
+      'The page highlights the app’s features, benefits, and download options for iOS and MacOS with a modern, professional design.',
+    technologies: ['HTML', 'CSS', 'Tailwind CSS'],
+    title: 'Clipboard Website',
+    id: '40',
+  },
+  {
+    description:
       'A responsive landing page built with HTML, CSS, Tailwind CSS utility classes, and JavaScript.',
     githubUrl: 'https://github.com/philipstubbs13/loopstudios',
     features: [
