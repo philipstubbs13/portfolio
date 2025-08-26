@@ -5,6 +5,28 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'A responsive landing page for Fylo, built with HTML, CSS (TailwindCSS), and vanilla JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/fylo',
+    features: [
+      'Responsive design (mobile-first with TailwindCSS)',
+      'Dark/Light mode toggle with local storage persistence',
+      'Smooth scrolling navigation',
+      'Hero section with call-to-action',
+      'Features and productivity showcase',
+      'Customer testimonials',
+      'Email input for early access',
+      'Footer with links and social media icons',
+    ],
+    href: 'https://fylo-kappa-one.vercel.app/',
+    imageSrc: '/fylo-landing-page.png',
+    overview:
+      'A responsive landing page for Fylo, built with HTML, CSS (TailwindCSS), and vanilla JavaScript. It features a modern layout with sections for features, testimonials, call-to-action, and footer.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
+    title: 'Fylo Landing Page',
+    id: '38',
+  },
+  {
+    description:
       'This project is a Starbucks-inspired landing page built with HTML, CSS, and JavaScript.',
     githubUrl: 'https://github.com/philipstubbs13/starbucks-homepage',
     features: [
