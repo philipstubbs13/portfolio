@@ -5,6 +5,27 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'A responsive landing page for a fictional URL shortening service, built with HTML, CSS (with Tailwind utility classes), and JavaScript. ',
+    githubUrl: 'https://github.com/philipstubbs13/shortly',
+    features: [
+      'Hero Section introducing the service with a CTA button.',
+      'Mobile-Friendly Navigation with hamburger toggle menu.',
+      'Shorten URL Section with input form and styled results (including copy button).',
+      'Advanced Statistics Section displaying service features.',
+      'Responsive Layout optimized for mobile, tablet, and desktop.',
+      'Call-to-Action Section encouraging users to sign up.',
+      'Footer with navigation menus and social media links.',
+    ],
+    href: 'https://shortly-dusky-pi.vercel.app/',
+    imageSrc: '/shortly.png',
+    overview:
+      'This page showcases modern UI/UX practices, responsive layouts, and interactive features like mobile navigation and link shortening.',
+    technologies: ['HTML', 'CSS', 'Tailwind CSS', 'JavaScript'],
+    title: 'Shortly',
+    id: '41',
+  },
+  {
+    description:
       'A clean, responsive landing page for a fictional Clipboard app, built with HTML and CSS (with utility classes).',
     githubUrl: 'https://github.com/philipstubbs13/clipboard-website',
     features: [
