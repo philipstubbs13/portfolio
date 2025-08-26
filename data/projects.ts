@@ -5,6 +5,26 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'A responsive landing page built with HTML, CSS, Tailwind CSS utility classes, and JavaScript.',
+    githubUrl: 'https://github.com/philipstubbs13/loopstudios',
+    features: [
+      'Responsive Layout: Optimized for desktop, tablet, and mobile devices.',
+      'Hero Section: Eye-catching intro with overlay text.',
+      'Interactive Navigation',
+      'Feature Section: Highlighting the brand and services.',
+      'Creations Showcase: Grid-based image gallery with hover scale and gradient overlays.',
+      'Footer: Logo, navigation links, and social media icons.',
+    ],
+    href: 'https://loopstudios-hu18-fy5oz6qlg-philipstubbs13s-projects.vercel.app/',
+    imageSrc: '/loopstudios.png',
+    overview:
+      'The page is inspired by a modern product/creative studio design and demonstrates responsive layouts, mobile navigation, hover animations, and structured semantic markup.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
+    title: 'Loopstudios Landing Page',
+    id: '39',
+  },
+  {
+    description:
       'A responsive landing page for Fylo, built with HTML, CSS (TailwindCSS), and vanilla JavaScript.',
     githubUrl: 'https://github.com/philipstubbs13/fylo',
     features: [
