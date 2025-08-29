@@ -5,6 +5,26 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'This page showcases features, browser extension download options, an FAQ section, and a newsletter signup form.',
+    githubUrl: 'https://github.com/philipstubbs13/bookmark-manager',
+    features: [
+      'Desktop & mobile-friendly navigation with hamburger menu.',
+      'Clean intro with call-to-action buttons for Chrome and Firefox.',
+      'Interactive tab panels to showcase bookmarking, search, and sharing.',
+      'Browser extension download options (Chrome, Firefox, Opera).',
+      'Expandable FAQ section built with accessible markup.',
+      'Email input form with styled submit button.',
+      'Links and social media icons.',
+    ],
+    href: 'https://bookmark-manager-flame.vercel.app/',
+    imageSrc: '/bookmark-manager.png',
+    overview: 'A responsive landing page for a Bookmark Manager application.',
+    technologies: ['HTML', 'CSS', 'Tailwind CSS', 'JavaScript'],
+    title: 'Bookmark Manager',
+    id: '42',
+  },
+  {
+    description:
       'A responsive landing page for a fictional URL shortening service, built with HTML, CSS (with Tailwind utility classes), and JavaScript. ',
     githubUrl: 'https://github.com/philipstubbs13/shortly',
     features: [
