@@ -4,6 +4,34 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description: 'A full-stack web application for capturing, sharing, and managing random ideas.',
+    githubUrl: 'https://github.com/philipstubbs13/randomideas-app',
+    features: [
+      'CRUD Operations: Create, read, update, and delete ideas',
+      'User Authentication: Username-based authorization for editing/deleting ideas',
+      'RESTful API: Clean API endpoints for idea management',
+      'Responsive Frontend: Modern web interface with modal forms and dynamic lists',
+      'MongoDB Integration: Persistent data storage with Mongoose ORM',
+    ],
+    href: 'https://randomideas-app-wouo.onrender.com/',
+    imageSrc: '/random-ideas.png',
+    overview:
+      'A full-stack web application for capturing, sharing, and managing random ideas. Built with Node.js, Express, MongoDB, and a modern JavaScript frontend using Webpack.',
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Webpack',
+      'Mongoose',
+      'Axios',
+    ],
+    title: 'Random Ideas',
+    id: '44',
+  },
+  {
     description:
       'Ambient Sound Mixer is a web-based sound generator designed to help users focus, relax, or sleep.',
     githubUrl: 'https://github.com/philipstubbs13/ambient-sound-mixer-app',
