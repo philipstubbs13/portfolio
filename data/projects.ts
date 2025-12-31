@@ -4,6 +4,29 @@ import { ComponentProps } from 'react';
 
 export const projects: IProject[] = [
   {
+    description:
+      'A modern, responsive calorie tracking web application built with JavaScript, Webpack, and Bootstrap.',
+    githubUrl: 'https://github.com/philipstubbs13/tracalorie',
+    features: [
+      'Calorie Limit Setting: Set and customize your daily calorie limit',
+      'Meal Tracking: Add meals with names and calorie counts',
+      'Workout Tracking: Log workouts and burned calories',
+      'Real-time Calculations: Automatic calculation of consumed, burned, and remaining calories',
+      'Progress Visualization: Visual progress bar showing calorie intake vs. limit',
+      "Persistent Storage: Data saved locally using browser's localStorage",
+      'Search and Filter: Filter meals and workouts by name',
+      'Responsive Design: Works on desktop and mobile devices',
+      'Bootstrap UI: Clean, modern interface with Bootstrap components',
+    ],
+    href: 'https://cal-fuel-log.netlify.app/',
+    imageSrc: '/tracalorie.png',
+    overview:
+      'A modern, responsive calorie tracking web application built with JavaScript, Webpack, and Bootstrap. Track your daily meals and workouts to maintain a healthy lifestyle and stay within your calorie goals.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Babel', 'Bootstrap', 'FontAwesome', 'Webpack'],
+    title: 'Tracalorie - Calorie Tracking App',
+    id: '45',
+  },
+  {
     description: 'A full-stack web application for capturing, sharing, and managing random ideas.',
     githubUrl: 'https://github.com/philipstubbs13/randomideas-app',
     features: [
