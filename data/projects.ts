@@ -5,6 +5,25 @@ import { ComponentProps } from 'react';
 export const projects: IProject[] = [
   {
     description:
+      'Ambient Sound Mixer is a web-based sound generator designed to help users focus, relax, or sleep.',
+    githubUrl: 'https://github.com/philipstubbs13/ambient-sound-mixer-app',
+    features: [
+      'Play multiple ambient sounds simultaneously to create a complex environment.',
+      'Adjust the volume of each sound independently or use the master volume for global control.',
+      'Save your favorite sound combinations and volume levels to local storage for future sessions.',
+      'Set a countdown timer that automatically fades out or stops all sounds when finished.',
+      'A modern, interactive interface featuring dynamic sound card rendering, dark/light mode support, real-time volume visualizers, and event delegation.',
+    ],
+    href: 'https://ambient-sound-mixer-app.vercel.app/',
+    imageSrc: '/ambient-mixer-screenshot.png',
+    overview:
+      'Ambient Sound Mixer is a web-based sound generator designed to help users focus, relax, or sleep. It allows users to layer multiple ambient sounds, adjust individual volumes, set sleep timers, and save personalized audio "presets.',
+    technologies: ['HTML', 'CSS', 'Tailwind CSS', 'JavaScript'],
+    title: 'Ambient Sound Mixer',
+    id: '43',
+  },
+  {
+    description:
       'This page showcases features, browser extension download options, an FAQ section, and a newsletter signup form.',
     githubUrl: 'https://github.com/philipstubbs13/bookmark-manager',
     features: [
